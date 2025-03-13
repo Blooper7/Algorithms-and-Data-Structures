@@ -21,7 +21,7 @@ class linkedListItem:
 			elif counter>0:
 				return self.next.step(counter-1)
 
-# List is only linked forward traversing backward is impossible until it's linked backward.
+# List is only linked forward. Traversing backward is impossible until it's linked backward.
 
 i1=linkedListItem(4)
 
